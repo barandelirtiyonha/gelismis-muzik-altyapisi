@@ -273,6 +273,11 @@ client.on('message', msg => {
   }
 });
 
+client.on('ready', ()=>{
+client.channels.get('694451002920796230').join()
+})
+
+
 client.elevation = message => {
   if(!message.guild) {
 	return; }
