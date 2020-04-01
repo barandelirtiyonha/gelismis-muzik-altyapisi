@@ -8,10 +8,7 @@ var prefix = ayarlar.prefix;
 module.exports = client => {
 var oyun = [
         "%100 - Küfür Engel✨",
-        "%100 - 7/24 Aktif!",
-        "%200 - Spam Koruması",
-        "Yapımcım UgurcanB",
-        "TRCyber - TRCyber Aktif! 👿",
+
        //DBL EKLENCEKSENİZ 5000 EN İYİ DEĞİŞİM SÜRESİDİR! EKLEMEK İSTEMİYORSANIZ İDEAL 2500
 
     ];
