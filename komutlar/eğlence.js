@@ -9,7 +9,7 @@ exports.run = (client, message, args) => {
         .setAuthor(`${client.user.username} `, client.user.avatarURL)
         .setColor('0x36393E')
         .setTitle(`${client.user.username} - Eğlence Ve Kullanıcı - Komutlar`)
-        .setDescription(`**${ayarlar.prefix}avatar** Avatarını Gösterir\n ` + `**${ayarlar.prefix}csgo**  Kişinin Csgo Bilgilerini Gösterir!\n` + `**${ayarlar.prefix}gifara**  İstediğiniz Gifi Arar.\n` + `**${ayarlar.prefix}havadurumu** Hava Durumunu Gösterir.\n` + `**${ayarlar.prefix}oyun-ara** İstediğiniz Oyun Bilgilerini Gösterir!\n` + `**${ayarlar.prefix}** Sunucudan Banlananları Göstetir\n`+`**${ayarlar.prefix}üyedurum** Üyelerin Durumunu Gösterir\n` + `**${ayarlar.prefix}döviz** Döviz Kurlarını Gösterir.\n `)  
+        .setDescription(`**${ayarlar.prefix}avatar** Avatarını Gösterir\n ` + `**${ayarlar.prefix}csgo**  Kişinin Csgo Bilgilerini Gösterir!\n` + `**${ayarlar.prefix}gifara**  İstediğiniz Gifi Arar.\n` + `**${ayarlar.prefix}havadurumu** Hava Durumunu Gösterir.\n` + `**${ayarlar.prefix}oyun-ara** İstediğiniz Oyun Bilgilerini Gösterir!\n` + `**${ayarlar.prefix}kullanıcıbilgim** komutu kullanan kişi hakkında Bilgi Verir.\n`+`**${ayarlar.prefix}twitch** Aradığınız Yayıncının Canlı Yayınını Gösterir!\n` + `**${ayarlar.prefix}spotify** Spotifyden Şarkı Dinleyen Birinin Şarkı Bilgisini Gösterir.\n `)  
         .setThumbnail(client.user.avatarURL)
         .setFooter(`${message.author.username} Tarafından İstendi.`, message.author.avatarURL)
     return message.channel.sendEmbed(embed);
