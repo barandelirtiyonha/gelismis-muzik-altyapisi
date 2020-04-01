@@ -7,7 +7,7 @@ var prefix = ayarlar.prefix;
 
 module.exports = client => {
 var oyun = [
-        "%100 - Küfür Engel✨",
+        "!yardım",
 
        //DBL EKLENCEKSENİZ 5000 EN İYİ DEĞİŞİM SÜRESİDİR! EKLEMEK İSTEMİYORSANIZ İDEAL 2500
 
