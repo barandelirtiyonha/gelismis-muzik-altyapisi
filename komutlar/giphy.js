@@ -2,7 +2,7 @@ const request = require('request-promise-native');
 exports.run = async (Bastion, message, args) => {
   try {
     if (args.length < 1) {
-      return message.reply("**Doğru Kullanım**:!gif <aranacak gif>");
+      return message.reply("**Doğru Kullanım** :!gifara <aranacak gif>");
     }
     let options = {
       url: 'http://api.giphy.com/v1/gifs/search',
