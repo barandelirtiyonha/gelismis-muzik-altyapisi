@@ -1,13 +1,13 @@
 const express = require('express');
 const app = express();
 const http = require('http');
-    app.get("/", (request, response) => {
-    console.log(` az önce pinglenmedi. Sonra ponglanmadı... ya da başka bir şeyler olmadı.`);
+    app.get("!", (request, response) => {
+    console.log(`Bot hazır.`);
     response.sendStatus(200);
     });
     app.listen(process.env.PORT);
     setInterval(() => {
-    http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`);
+    http.get(`https://baran-utube-altyap-.glitch.me/`);
     }, 280000);
 
 const Discord = require('discord.js');
