@@ -261,10 +261,19 @@ client.on('message', msg => {
   }
 });
 
-client.on('ready', ()=>{
-client.channels.get('694451002920796230').join()
-})
-
+//-----------------------------------------------\\
+const http = require('http');
+const express = require('express');
+const app = express();
+app.get("/", (request, response) => {
+  console.log("Hostlandı");
+  response.sendStatus(200);
+});
+app.listen(8000);
+setInterval(() => {
+  http.get(`http://bosproje.glitch.me/`);
+}, 280000)
+//-----------------------------------------------\\
 
 client.elevation = message => {
   if(!message.guild) {
