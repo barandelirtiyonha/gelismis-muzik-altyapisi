@@ -9,7 +9,7 @@ exports.run = (client, message, args) => {
         .setAuthor(`${client.user.username} `, client.user.avatarURL)
         .setColor('#00ff1f')
         .setTitle(`${client.user.username} - Komutlar`)
-        .setDescription(`**${ayarlar.prefix}yetkili** Yetkili Komutlarını Gösterir.\n**${ayarlar.prefix}eğlence** Eğlence Ve Kullanıcı Komutlarını Gösterir.\n**${ayarlar.prefix}müzik** Müzik Komutlarını Gösterir!\n**${ayarlar.prefix}radyo** Radyo Komutlarını Gösterir.D`)  
+        .setDescription(`**${ayarlar.prefix}yetkili** Yetkili Komutlarını Gösterir.\n**${ayarlar.prefix}eğlence** Eğlence Ve Kullanıcı Komutlarını Gösterir.\n**${ayarlar.prefix}müzik** Müzik Komutlarını Gösterir!\n**${ayarlar.prefix}radyo** Radyo Komutlarını Gösterir.Durdurmak için !radyo dur`)  
         .setImage("")  
     return message.channel.sendEmbed(embed);
   
